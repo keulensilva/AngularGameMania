@@ -1,0 +1,101 @@
+.titulo {
+  color: white;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+ 
+  background-color: #ababab;
+  max-width: 315px;
+  margin: 0 auto;
+  border-radius: 50px; 
+}
+
+.voltar {
+  margin-bottom: 60px
+}
+
+.titulo {
+  margin-bottom: 100px;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ababab;
+
+}
+
+/* pinta a borda somente da primeira linha */
+.linha:first-of-type {
+  border-bottom: 1px solid white;
+}
+
+.linha input {
+  height: 40px;
+  width: 90%;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.linha input::placeholder {
+  color: white;
+}
+
+.mensagem {
+  text-align: center;
+  color: #c67187;
+  height: 25px;
+}
+
+.confirmar {
+  display: block;
+  width: 80%;
+  margin: 25px auto 0;
+  background-color: #0A5599;
+  color: white;
+  padding: 20px;
+  border: 1px solid #0A5599;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  font-family: "/assets/fonts/Roboto-Regular";
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.cadastrar{
+display: block;
+width: 80%;
+margin: 25px auto 0;
+background-color: white;
+color: black;
+padding: 20px;
+border: 1px solid black;
+border-radius: 25px;
+font-size: 1.2rem;
+font-family: "/assets/fonts/Roboto-Regular";
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Tablet */
+@media screen and (min-width: 768px ) {
+  .container {
+      max-width: 600px;
+  }
+  h1 {
+      font-size: 3rem;
+  }
+  
+}
+
+/* Tablet */
+@media screen and (min-width: 992px ) {
+  .container {
+      max-width: 900px;
+  }
+}
